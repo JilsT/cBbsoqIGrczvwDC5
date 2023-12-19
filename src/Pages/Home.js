@@ -80,7 +80,19 @@ const Home = () => {
                             SkillSet
                         </h1>
                     </div>
+                    <div className="skillset">
 
+                        {data.map((skill) => (
+                            <div className="cards">
+                                <Card className="card" style={{ backgroundColor: "#4F709C", borderRadius: "0" }}>
+                                    <img src={skill.image} alt={skill.name} />
+                                    <CardContent>
+                                        <p>{skill.name}</p>
+                                    </CardContent>
+                                </Card>
+                            </div>
+                        ))}
+                    </div>
                 </div>
                 <div className="infoSection">
                     <div className="info">
