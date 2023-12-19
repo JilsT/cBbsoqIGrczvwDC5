@@ -74,6 +74,9 @@ const Home = () => {
                         <img className="banner" src={image} alt="banner" />
                     </div>
                 </div>
+
+                <div className="scroll-down"></div>
+
                 <div className="skillSection">
                     <div className="skillHeading">
                         <h1>
@@ -94,6 +97,7 @@ const Home = () => {
                         ))}
                     </div>
                 </div>
+
                 <div className="infoSection">
                     <div className="info">
                         <img className="infoSvg" src={bg1} alt="background" />

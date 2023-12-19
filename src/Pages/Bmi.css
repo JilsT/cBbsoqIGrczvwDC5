@@ -1,0 +1,48 @@
+.bmiPage {
+    width: 100vw;
+    height: 100vh;
+    background-color: #213555;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.labelForm {
+    color: #D8C4B6;
+    font-size: 2rem;
+}
+
+.inputForm {
+    width: 6rem;
+    height: 1.5rem;
+    border-radius: 2rem;
+}
+
+.formElem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 6rem;
+}
+
+.submitBtn {
+    width: 7rem;
+    height: 2rem;
+    border-radius: 2rem;
+    border: none;
+}
+
+.submitBtn:hover {
+    background-color: rgb(177, 191, 204);
+    cursor: pointer;
+}
+
+h3 {
+    color: #D8C4B6;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
