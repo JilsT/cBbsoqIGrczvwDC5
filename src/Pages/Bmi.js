@@ -81,7 +81,7 @@ const Bmi = () => {
                 </div>
                 <p id="error"></p>
                 <h3 id="result">Results</h3>
-                <button className="submitBtn"><a href="/">
+                <button className="submitBtn"><a href="#/">
                     Back to Home!
                     </a>
                     </button>

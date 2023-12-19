@@ -101,7 +101,7 @@ const Home = () => {
                 <div className="infoSection">
                     <div className="info">
                         <img className="infoSvg" src={bg1} alt="background" />
-                        <a href="/bmi">
+                        <a href="#/bmi">
                             <h1 className="infoContent">BMI</h1>
                         </a>
                     </div>
